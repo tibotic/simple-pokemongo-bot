@@ -38,7 +38,9 @@
         "type": "RecycleItems",
         "config": {
           "item_filter": {
-            "Pokeball":       { "keep" : 50 },
+            "Pokeball":       { "keep" : 25 },
+            "Greatball":      { "keep" : 25 },
+            "Ultraball":      { "keep" : 50 },
             "Potion":         { "keep" : 10 },
             "Super Potion":   { "keep" : 20 },
             "Hyper Potion":   { "keep" : 30 },
