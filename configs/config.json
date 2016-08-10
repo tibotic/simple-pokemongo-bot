@@ -38,12 +38,12 @@
         "type": "RecycleItems",
         "config": {
           "item_filter": {
-            "Pokeball":       { "keep" : 100 },
+            "Pokeball":       { "keep" : 50 },
             "Potion":         { "keep" : 10 },
             "Super Potion":   { "keep" : 20 },
             "Hyper Potion":   { "keep" : 30 },
             "Revive":         { "keep" : 30 },
-            "Razz Berry":     { "keep" : 100 }
+            "Razz Berry":     { "keep" : 50 }
           }
         }
       },
@@ -95,7 +95,7 @@
       "// Rattata": { "always_catch" : true }
     },
     "release": {
-      "any": {"release_below_cp": 60, "release_below_iv": 0, "logic": "or"},
+      "any": {"release_below_cp": 200, "release_below_iv": 0, "logic": "or"},
       "// Example of always releasing Rattata:": {},
       "// Rattata": {"always_release": true},
       "// Example of keeping 3 stronger (based on CP) Pidgey:": {},
