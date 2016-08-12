@@ -25,4 +25,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /usr/src/app
 
-ENTRYPOINT ["python", "pokecli.py"]
+ENTRYPOINT ["./docker-entrypoint.sh"]
